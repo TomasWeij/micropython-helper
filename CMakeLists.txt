@@ -4,7 +4,7 @@ get_filename_component(MICROPY_DIR ${CMAKE_CURRENT_LIST_DIR}/micropython ABSOLUT
 # Set location of the ESP32 port directory.
 get_filename_component(MICROPY_PORT_DIR ${MICROPY_DIR}/ports/esp32 ABSOLUTE)
 
-if(IDF_TARGET STREQUAL "esp32c3")
+if(IDF_TARGET STREQUAL "esp32c6")
     list(APPEND MICROPY_SOURCE_LIB ${MICROPY_DIR}/shared/runtime/gchelper_generic.c)
 endif()
 
