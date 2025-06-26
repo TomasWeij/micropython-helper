@@ -7,8 +7,8 @@ targets:
   - esp32s3
   - esp32c6
 url: https://github.com/mr9you/micropython-helper.git
-repository: https://github.com/mr9you/micropython-helper
-issues: https://github.com/mr9you/micropython-helper/issues
+repository: https://github.com/TomasWeij/micropython-helper
+issues: https://github.com/TomasWeij/micropython-helper/issues
 dependencies:
   espressif/mdns: "~1.1.0"
   espressif/esp_tinyusb:
