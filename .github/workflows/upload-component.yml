@@ -14,7 +14,7 @@ jobs:
           submodules: 'recursive'
 
       - name: Upload components to component service
-        uses: espressif/upload-components-ci-action@v1
+        uses: espressif/upload-components-ci-action@v2
         with:
           name: "micropython-helper"
           namespace: "TomasWeij"
