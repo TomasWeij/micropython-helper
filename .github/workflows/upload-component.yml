@@ -18,4 +18,4 @@ jobs:
         with:
           name: "micropython-helper"
           namespace: "TomasWeij"
-          token: ${{ secrets.ESP_COMPONENTS_TOKEN }}
+          api_token: ${{ secrets.ESP_COMPONENTS_TOKEN }}
