@@ -2,14 +2,14 @@ name: Push components to Espressif Component Service
 
 on:
   push:
-    branches:
-      - master
+    tags:
+      - 'v*'
 
 jobs:
   upload_components:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v3
         with:
           submodules: 'recursive'
 
@@ -18,4 +18,4 @@ jobs:
         with:
           name: "micropython-helper"
           namespace: "mr9you"
-          api_token: ${{ secrets.IDF_COMPONENT_API_TOKEN }}
+          token: ${{ secrets.IDF_COMPONENT_API_TOKEN }}
