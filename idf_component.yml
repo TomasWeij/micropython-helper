@@ -6,7 +6,7 @@ targets:
   - esp32s2
   - esp32s3
   - esp32c6
-url: https://github.com/mr9you/micropython-helper.git
+url: https://github.com/TomasWeij/micropython-helper.git
 repository: https://github.com/TomasWeij/micropython-helper
 issues: https://github.com/TomasWeij/micropython-helper/issues
 dependencies:
