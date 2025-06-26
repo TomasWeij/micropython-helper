@@ -1,0 +1,6 @@
+[submodule "lib/berkeley-db-1.xx"]
+	path = lib/berkeley-db-1.xx
+	url = https://github.com/pfalcon/berkeley-db-1.xx
+[submodule "lib/micropython-lib"]
+	path = lib/micropython-lib
+	url = https://github.com/micropython/micropython-lib.git
