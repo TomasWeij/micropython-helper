@@ -5,7 +5,7 @@
 cmake_minimum_required(VERSION 3.16)
 
 if(NOT MICROPY_HELPER_DIR)
-    set(MICROPY_HELPER_DIR ${CMAKE_CURRENT_SOURCE_DIR}/managed_components/mr9you__micropython-helper)
+    set(MICROPY_HELPER_DIR ${CMAKE_CURRENT_SOURCE_DIR}/managed_components/TomasWeij__micropython-helper)
 endif()
 
 if(EXISTS ${MICROPY_HELPER_DIR})
