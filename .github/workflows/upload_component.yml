@@ -17,5 +17,5 @@ jobs:
         uses: espressif/upload-components-ci-action@v1
         with:
           name: "micropython-helper"
-          namespace: "mr9you"
-          token: ${{ secrets.IDF_COMPONENT_API_TOKEN }}
+          namespace: "TomasWeij"
+          token: ${{ secrets.ESP_COMPONENTS_TOKEN }}
