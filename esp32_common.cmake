@@ -13,6 +13,9 @@ include(${MICROPY_DIR}/py/py.cmake)
 
 
 set(BOARD ESP32_GENERIC_C6)
+target_include_directories(${COMPONENT_LIB} PRIVATE
+  ${MICROPY_DIR}/ports/esp32/boards/${BOARD}
+)
 # CMAKE_BUILD_EARLY_EXPANSION is set during the component-discovery phase of
 # `idf.py build`, so none of the extmod/usermod (and in reality, most of the
 # micropython) rules need to happen. Specifically, you cannot invoke add_library.
